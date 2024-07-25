@@ -10,7 +10,7 @@ terraform {
 # Configure the AWS Provider
 # Uncomment the region, access_key and secret_key if you are running locally
 provider "aws" {
-  # region = "ap-southeast-1" 
+  region = "ap-southeast-1" 
   # or
   # region = "us-east-1"
 }
